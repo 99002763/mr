@@ -1,0 +1,224 @@
+[
+    {
+        "id": "1",
+        "title": "Black Panther",
+        "year": "2018",
+        "genres": "Sci-Fi",
+        "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SY500_CR0,0,337,500_AL_.jpg",
+        "type":"movie",
+        "category":"hollywood"
+    },
+
+    
+        {
+            "id": "2",
+            "title": "Grottmannen Dug",
+            "year": "2018",
+            "genres": "Animation",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWMxYWVjNzAtMTY0YS00YWQyLWExMGItMjUxODkwYzQyNzMwXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY500_CR0,0,328,500_AL_.jpg",
+            "type":"movie",
+            "category":"hollywood"
+        },
+
+        {
+            "id": "3",
+            "title": "Aiyaary",
+            "year": "2018",
+            "genres": "Action",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI1NTk0NTc1OV5BMl5BanBnXkFtZTgwNTMwMTE4NDM@._V1_SY500_CR0,0,281,500_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+        {
+            "id": "4",
+            "title": "Samson",
+            "year": "2018",
+            "genres": "Action", 
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThiMjg4ZDAtNjk5ZS00ZTUxLThmM2ItMGI0ZTE1NjRhNWNmXkEyXkFqcGdeQXVyNTQ3MjE4NTU@._V1_SY500_CR0,0,334,500_AL_.jpg",
+            "type":"movie",
+            "category":"hollywood"
+        },
+
+    
+        {
+            "id": "5",
+            "title": "Loveless",
+            "year": "2017",
+            "genres":"Drama",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU3ODQ3MzQ5Nl5BMl5BanBnXkFtZTgwMDQwMDIzNDM@._V1_SY500_CR0,0,338,500_AL_.jpg",
+            "type":"movie",
+            "category":"hollywood"
+
+        },
+
+        {
+            "id": "6",
+            "title": "L'amant double",
+            "year": "2017",
+            "genres": "Thriller",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg5NjUyMzAyOV5BMl5BanBnXkFtZTgwMTU4Njk2NDM@._V1_SY500_CR0,0,337,500_AL_.jpg",
+            "type":"movie",
+            "category":"hollywood"
+        },
+
+        {   "id": "7",
+            "title": "Anand",
+            "year": "1971",
+            "genres": "Drama",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE0Mzk3OTk2NF5BMl5BanBnXkFtZTgwMTQ1NDk5NTE@._V1_SY250_CR0,0,187,250_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+        {   "id": "8",
+            "title": "Drishyam",
+            "year": "2016",
+            "genres":"Drama",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SY500_CR0,0,356,500_AL_.jpg",
+            "type":"movie",
+            "category":"mollywood"
+        },
+        {
+            "id": "9",
+            "title": "Nayakan",
+            "year": "1987",
+            "genres": "Crime",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTI2Zjc5ODMtNGE0NC00YjU5LTk0NjktZjU4ZDRlZDFkZWU0XkEyXkFqcGdeQXVyNjc5Mjg4Nzc@._V1_SY480_SX320_AL_.jpg",
+            "type":"movie",
+            "category":"kollywood"
+        },
+        {   "id": "10",
+            "title": "Anbe Sivam",
+            "year": "2003",
+            "genres": "Comedy",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWQxY2MyNmUtOTkxZC00MmQ3LWFkMjMtNWU3YmFlZDM5YTBhXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX352_CR0,0,352,499_AL_.jpg",
+            "type":"movie",
+            "category":"kollywood"
+        },
+        {   "id": "11",
+            "title": "Black Friday",
+            "year": "2004",
+            "genres":"Thriller",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmU1NDhjYTQtYjQxYy00MjlmLWIxMjItMjllMmE2NDRlY2ZhXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY500_SX400_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+
+        {   "id": "12",
+            "title": "Taare Zameen Par",
+            "year": "2007",
+            "genres": "Drama",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTVmYTk2NjAtYzY3MS00YjFjLTlkYzktYzg3YzMyZDQyOWRiXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY500_CR0,0,346,500_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+
+        {
+            "id": "13",
+            "title": "3 Idiots",
+            "year": "2009",
+            "genres": "Comedy",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWRlNDdkNzItMzhlZC00YTdmLWIwNjktYjY5NjQ1ZmQ3N2FkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,373,500_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+        {
+            "id": "14",
+            "title": "Hera Pheri",
+            "year": "2000",
+            "genres": "Comedy",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTYwNDdmNmEtOGZhYS00MjRiLWIzOWUtNDQxNzg4ZTVjMGE1XkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY500_SX350_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+        {   "id": "15",
+            "title": "Drishyam",
+            "year": "2015",
+            "genres":"Drama",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyMjgyNDY3N15BMl5BanBnXkFtZTgwOTMzNTE5NTE@._V1_SY500_CR0,0,346,500_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+        {   
+            "id": "16",
+            "title": "Thani Oruvan",
+            "year": "2015",
+            "genres":  "Action",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzgxMDc2Mjg3M15BMl5BanBnXkFtZTgwMzU4NTkxNzE@._V1_SY250_CR0,0,187,250_AL_.jpg",
+            "type":"movie",
+            "category":"kollywood"
+        },
+        {
+            "id": "17",
+            "title": "Chak De! India",
+            "year": "2007",
+            "genres": "Drama",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MjgyNDE5Nl5BMl5BanBnXkFtZTcwMzM1MDc4MQ@@._V1_SY250_CR0,0,166,250_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+
+        },
+        {
+            "id": "18",
+            "title": "Swades: We, the People",
+            "year": "2004",
+            "genres": "Drama",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYzExOTcwNjYtZTljMC00YTQ2LWI2YjYtNWFlYzQ0YTJhNzJmXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY377_CR0,0,261,377_AL_.jpg",
+            "type":"movie",
+            "category":"bollywood"
+        },
+
+        {
+            "id": "19",
+            "title": "Jigarthanda",
+            "year": "2014",
+            "genres": "Action",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODExZjUzMDktNWEwNy00MzRkLWI2ZTctZTNmZTViNDhkMmU2XkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_SY266_SX195_AL_.jpg",
+            "type":"movie",
+            "category":"kollywood"
+
+        },
+
+        {
+            "id": "20",
+            "title": "Satya",
+            "year": "1998",
+            "genres": "Action",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMwMjk3MzA2OF5BMl5BanBnXkFtZTcwNjU2ODgzMQ@@._V1_SY250_CR0,0,176,250_AL_.jpg",
+            "type":"movie",
+            "category":"tollywood"
+
+        },
+
+
+        {
+            "id": "21",
+            "title": "Bharat Ane Nenu",
+            "year": "2018",
+            "genres": "Drama",
+            "type":"movie",
+            "category":"tollywood"
+
+        },
+        
+        {
+            "id": "22",
+            "title": "Aravinda Sametha Veera Raghava",
+            "year": "2018",
+            "genres": "Action",
+            "type":"movie",
+            "category":"tollywood"
+
+        },
+        {
+            "id": "23",
+            "title": "The Dark Knight",
+            "year": "2008",
+            "genres": "Action",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY500_CR0,0,337,500_AL_.jpg",
+            "type":"movie",
+            "category":"hollywood"
+        }
+        
+        
+]
+        

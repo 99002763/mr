@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get your favorite movie</title>
+    <!-- INCLUDING JQUERY-->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"> </script>
+   
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #5eaefd);
+        }
+
+        table {
+            margin: 0 auto;
+            font-size: large;
+            border: 1px solid black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #006600;
+            font-size: xx-large;
+            font-family: 'Gill Sans',
+                'Gill Sans MT', ' Calibri',
+                'Trebuchet MS', 'sans-serif';
+        }
+
+        td {
+            background-color: #E4F5D4;
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td {
+            font-weight: lighter;
+        }
+
+        .btn {
+            background-color: dodgerblue;
+            color: white;
+            padding: 5px 20px;
+            border: none;
+            cursor: pointer;
+            width: 10%;
+            height: 20;
+            opacity: 0.9;
+            margin: 0;
+            position: relative;
+            top: 60%;
+            left: 40%;
+            -ms-transform: translate(-40%, -40%);
+            transform: translate(-40%, -0%);
+        }
+        .drop{
+            margin: 0;
+            position: relative;
+            top: 60%;
+            left: 40%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -0%);
+        }
+        .btn:hover {
+            opacity: 1;
+        }
+
+        #carousel{
+            padding: 4%;
+            position: relative;
+            
+            
+        }
+        #carousel1{
+           
+            position: relative;
+            border: dodgerblue;
+            box-shadow:5px 10px dodgerblue;
+            border-radius: 2%;
+            
+        }
+    
+ 
+
+
+    </style>
+    <script>
+        const url = "http://localhost:1234/movie";
+
+        function populateData() {
+            //Show the Div
+            $("div:first").show(2000);
+            $("table").find("tr:gt(0)").remove();
+            //Get the data from the server
+            $.get(url, (data) => {
+                let array = JSON.parse(data);
+                for (const user of array) {
+                    const row = `<tr><td>${user.userId}</td><td>${user.userName}</td><td>${user.userCity}</td><td>${user.userEmail}</td><td>${user.userPhone}</td><td><a href="#" class="edit" uId = ${user.userId}>Edit</a></tr>`
+                    $("table").append(row);
+                }
+                $(".edit").click(findRecord);
+            })
+            //Populate the data into the table
+
+        }
+          function init() {
+            // $("div").hide(2000);
+            //  $("a:first").click(populateData);
+            //     $("a:eq(1)").click(showAddDiv);
+            //     $("button:eq(0)").click(saveChanges);
+            //     $("button:eq(1)").click(addChanges);
+            // }
+        }
+        $(document).ready(init);
+    </script>
+</head>
+
+<body>
+    
+    <section>
+
+        <!-- TABLE CONSTRUCTION-->
+        <table id='table'>
+            <!-- HEADING FORMATION -->
+            <!-- <tr> 
+                <th>TITLE</th> 
+                <th>GENERE</th> 
+                <th>CATEGORY</th> 
+            </tr>  -->
+            <div>
+                <form action="http://localhost:1234/movie/genre">
+                    <select name="sType" style="background-color:  rgb(238, 241, 245); width: 20%;" class="drop">
+                        <option>GENRE</option>
+                        <option value="Action">Action</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Sci-Fi">Sci-Fi</option>
+                        <option value="Animation">Animation</option>
+                        <option value="Thriller">Thriller</option>
+                        <option value="Crime">Crime</option>
+                        <option value="Comedy">Comedy</option>
+                    </select>
+
+                    <input type="submit" class="btn">
+                </form>
+            </div>
+            <br>
+            <br>
+            <div>
+                <form action="http://localhost:1234/movie/category">
+                    <select name="cType" style="background-color: rgb(237, 239, 241); width: 20%;" class="drop">
+                        <option>CATEGORY</option>
+                        <option value="hollywood">Hollywood</option>
+                        <option value="bollywood">Bollywood</option>
+                        <option value="kollywood">Kollywood</option>
+                        <option value="tollywood">Tollywood</option>
+                        <option value="mollywood">Mollywood</option>
+
+                    </select>
+                    <input type="submit" class="btn">
+                </form>
+            </div>
+    </section>
+    <div class="container" id="carousel" style="width:50%;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="Animation.jpg" id="carousel1" alt="Animation" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="Action.jpg" id="carousel1" alt="Action" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="SCI-FI.jpg" id="carousel1" alt="SCI-FI" style="width:100%;">
+            </div>
+
+            <div class="item">
+                <img src="comedy.jpg" id="carousel1" alt="Comedy" style="width:100%;">
+              </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      
+</body>
+
+</html>
